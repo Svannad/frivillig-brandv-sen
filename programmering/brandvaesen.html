@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frivilligt Brandvæsen</title>
+    <link rel="shortcut icon" href="./img/logo.png">
+    <link rel="stylesheet" href="https://use.typekit.net/cgu8wak.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fælles.css">
+    <link rel="stylesheet" href="./css/brandvæsen.css">
+</head>
+<body>
+<!--Page Loader-->
+    <div id="preloader"></div>
+
+<!--Header med menupunkter-->
+    <header>
+        <figure>
+            <a href="./index.html"><img src="./img/logo.png" alt="frivilligt brandvæsen logo"></a>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="./historie.html" id="historie">Linneas historie</a></li>
+                <li><a href="./brandvæsen.html" id="brandvæsen">Frivilligt brandvæsen</a></li>
+                <li><a href="./krav.html" id="krav">Krav</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!--Main Content-->
+    <main>
+        <h1 class="hidden">frivilligt brandvæsen</h1>
+        <section id="kerneopgave" class="hidden">
+            <h2>Kerneopgaven</h2>
+            <p>Vores kerneopgave er todelt:</p>
+            <ol>
+                <li>Vi forebygger, uddanner, redder og slukker </li>
+                <li>Vi koordinerer den kommunale krisestyring</li>
+            </ol>
+            <p id="tekst">Beredskabet servicerer 430.000 borgere og rykker ud til brande, drukneulykker, færdselsuheld og miljøforurening ca. 2.500 gange om året. 
+                Østjyllands Brandvæsen er sat i verden for at skabe tryghed – tæt på. Vi redder liv, beskytter værdier og gør alt, hvad vi kan for at sikre det lokale erhvervsliv og kommunernes evne til at fortsætte driften, når ulykker, brand og andre alvorlige hændelser rammer.
+                Østjyllands Brandvæsen har ca. 400 medarbejdere fordelt på fuldtidsansatte, deltidsansatte, frivillige og juniorbrandmænd. Vi dækker godt 1.244 km2 og vores brandfolk rykker ud fra 11 forskellige brandstationer i det østjyske. Falck driver stationen i Galten og Samsø Redningskorps driver stationerne i Nordby og Tranebjerg.</p>
+        </section>
+        <section id="rundvisning" class="hidden"> 
+            <h2>Rundvisning</h2>
+            <p>Hvis du er nysgerig på, hvordan det kan se ud på en frivillig brandstation, så kan du tage et kig indenfor her:</p>
+            <iframe src="https://momento360.com/e/uc/b9860bae3b8a470b8e8d2f4f7c9ec621?utm_campaign=embed&utm_source=other&size=medium&display-plan=true"> </iframe>
+        </section>
+    </main>
+<script src="./js/fade.js"></script>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        loader.style.display = "none"
+    })
+</script>
+</body>
+</html>
